@@ -1,0 +1,26 @@
+{
+  "name": "gustocoffee-server",
+  "version": "1.0.0",
+  "description": "API for gustocoffee",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brayan233/GustoCoffee-Server.git"
+  },
+  "author": "Brayaninho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brayan233/GustoCoffee-Server/issues"
+  },
+  "homepage": "https://github.com/Brayan233/GustoCoffee-Server#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
